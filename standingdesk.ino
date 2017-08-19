@@ -31,7 +31,7 @@ void setup() {
 
   timer.setInterval(1000, countdown);
 
-  lcd.noBacklight();
+  lcd.backlight();
 }
 
 void countdown() {
